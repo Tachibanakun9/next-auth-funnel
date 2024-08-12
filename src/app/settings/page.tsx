@@ -6,7 +6,7 @@ import SettingsPage from "./SettingsPage";
 export const metadata: Metadata = {
   title: "Settings",
 };
-
+/*this is how we comment */
 export default async function Page() {
   const session = await getSession();
   const user = session?.user;
