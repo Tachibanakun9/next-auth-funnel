@@ -42,8 +42,9 @@ import { cn } from "@/lib/utils";
         </div>
 
         <div className="flex flex-col space-y-4 text-sm">
+         <Link herf={"/contact-us"}>
         <MenuItem setActive={setActive} active={active} item="Contact-us">
-        <HoveredLink href="/contact-us">Contact us</HoveredLink>
+        </Link>
         </MenuItem>
         </div>
 
