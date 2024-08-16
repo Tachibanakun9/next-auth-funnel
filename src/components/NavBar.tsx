@@ -21,21 +21,29 @@ import { cn } from "@/lib/utils";
     className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
     >
       <Menu setActive={setActive}>
+
+        <div className="flex flex-col space-y-4 text-sm">
         <Link href={"/"}>
         <MenuItem setActive={setActive} active={active} item="home">
         </MenuItem>
         </Link>
+        </div>
 
-      
+        <div className="flex flex-col space-y-4 text-sm">
         <MenuItem setActive={setActive} active={active} item="Products">
         <HoveredLink href="/products">Our Products</HoveredLink>
         </MenuItem>
+        </div>
 
+        <div className="flex flex-col space-y-4 text-sm">
         <MenuItem setActive={setActive} active={active} item="Blog">
         </MenuItem>
+        </div>
 
+        <div className="flex flex-col space-y-4 text-sm">
         <MenuItem setActive={setActive} active={active} item="Contact-us">
         </MenuItem>
+        </div>
 
       </Menu>
       </div>
