@@ -1,0 +1,10 @@
+{
+    "courses":[
+        {
+            "id":1,
+            "title": "Guitar Fundamental",
+            "slug": "learn the basics of gitar",
+            "price": 99.99
+        }
+    ]
+}
