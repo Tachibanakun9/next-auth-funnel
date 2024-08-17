@@ -30,18 +30,11 @@ const PXFunnelSystemPage = () => {
         </nav>
       </header>
 
-      <main style={{ maxWidth: '600px', width: '100%' }}>
-        <div style={{
-          background: 'linear-gradient(90deg, #121212, #4299e1, #121212)',
-          height: '2px',
-          width: '100%',
-          marginBottom: '20px'
-        }}></div>
-
-        <h2 style={{
-          fontSize: '24px',
-          marginBottom: '10px'
-        }}>
+      <main style={{ maxWidth: '600px', width: '100%', flex: 1 }}>
+        {/* Main content remains the same */}
+        {/* ... */}
+      </main>
+        <h2>
           <span style={{ color: '#4299e1', display: 'block', fontSize: '18px' }}>VS</span>
           THE PX FUNNEL SYSTEM
         </h2>
@@ -82,7 +75,60 @@ const PXFunnelSystemPage = () => {
         }}>
           "If you don't create a purposeful Persuasion..."
         </p>
-      </main>
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer style={{
+        width: '100%',
+        borderTop: '1px solid #333',
+        marginTop: '40px',
+        paddingTop: '20px',
+        textAlign: 'center'
+      }}>
+        <div style={{ marginBottom: '20px' }}>
+          <a href="#" style={footerLinkStyle}>Home</a>
+          <a href="#" style={footerLinkStyle}>Products</a>
+          <a href="#" style={footerLinkStyle}>Blog</a>
+          <a href="#" style={footerLinkStyle}>Contact Us</a>
+          <a href="#" style={footerLinkStyle}>Sign In</a>
+          <a href="#" style={footerLinkStyle}>Sign Up</a>
+        </div>
+        <div style={{ marginBottom: '20px' }}>
+          <a href="#" style={footerLinkStyle}>Admin Page</a>
+          <a href="#" style={footerLinkStyle}>Terms and Conditions</a>
+          <a href="#" style={footerLinkStyle}>Privacy Policy</a>
+        </div>
+        <div style={{ fontSize: '14px', color: '#888' }}>
+          © 2024 Persuasion Experience. All rights reserved.
+        </div>
+      </footer>
     </div>
   );
 };
@@ -91,6 +137,13 @@ const linkStyle = {
   color: 'white',
   textDecoration: 'none',
   marginLeft: '15px',
+  fontSize: '14px'
+};
+
+const footerLinkStyle = {
+  color: '#4299e1',
+  textDecoration: 'none',
+  margin: '0 10px',
   fontSize: '14px'
 };
 
