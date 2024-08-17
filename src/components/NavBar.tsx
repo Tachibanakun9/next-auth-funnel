@@ -1,8 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import UserButton from "./UserButton";
-import { Button } from "./ui/button";
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
@@ -42,10 +40,11 @@ import { cn } from "@/lib/utils";
         </div>
 
         <div className="flex flex-col space-y-4 text-sm">
-         <Link herf={"/contact-us"}>
+        <Link href={"/contct"}>
         <MenuItem setActive={setActive} active={active} item="Contact-us">
-        </Link>
+        
         </MenuItem>
+        </Link>
         </div>
 
       </Menu>
