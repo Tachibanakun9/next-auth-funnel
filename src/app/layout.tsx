@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <SessionProvider>
           <div className="relative w-full flex items-center justify-center">
-          <NavBar />
+          
           </div>
           {children}
           <Toaster />
